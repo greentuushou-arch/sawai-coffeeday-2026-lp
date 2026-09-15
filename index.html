@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>星降る夜を、飲みくらべる。｜10月1日はコーヒーの日 2,026円OFFクーポン｜星降るブレンド3種60杯分｜澤井珈琲</title>
+<meta name="description" content="10月1日はコーヒーの日。鳥取の澄んだ星空から生まれた澤井珈琲「星降るブレンド」カシオペア・サザンクロス・星ロマンの飲み比べ60杯分福袋が、1日限定2,026円OFFクーポン・ポイント2倍対象に。">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Kaisei+Opti:wght@500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --night-950:#080B1E;
+  --night-900:#0F1638;
+  --night-800:#182052;
+  --night-700:#242E6E;
+  --night-600:#37438F;
+  --star-gold:#E9BE68;
+  --star-gold-deep:#C99A3E;
+  --star-cream:#FFF6E2;
+  --coffee-900:#2A160D;
+  --coffee-800:#3A2013;
+  --coffee-700:#4A2C1A;
+  --coffee-500:#7A4A2B;
+  --cassiopeia:#1E6E8C;
+  --cassiopeia-soft:#E4F1F4;
+  --scross:#6B3F8F;
+  --scross-soft:#EFE7F5;
+  --romance:#2C7A56;
+  --romance-soft:#E4F1EA;
+  --cream-050:#FFFBF3;
+  --white:#FFFFFF;
+  --ink:#171A2C;
+  --ink-soft:#5C5E76;
+  --line:#E7E3EE;
+}
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; font-size:130%; }
+body{
+  margin:0; background:var(--night-950); color:var(--ink);
+  font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+img{ max-width:100%; display:block; }
+a{ text-decoration:none; color:inherit; }
+.sw-num{ font-family:"Jost",sans-serif; font-weight:700; }
+.sw-serif{ font-family:"Kaisei Opti",serif; }
+
+/* ===================== 背景(夜空パターン) ===================== */
+.sw-bg-pattern{
+  position:fixed; inset:0; z-index:-1;
+  background:
+    radial-gradient(1.5px 1.5px at 8% 12%, rgba(255,255,255,.7), transparent 60%),
+    radial-gradient(1.5px 1.5px at 22% 68%, rgba(255,255,255,.5), transparent 60%),
+    radial-gradient(2px 2px at 40% 22%, rgba(255,255,255,.6), transparent 60%),
+    radial-gradient(1.5px 1.5px at 62% 80%, rgba(255,255,255,.5), transparent 60%),
+    radial-gradient(2px 2px at 82% 15%, rgba(255,255,255,.65), transparent 60%),
+    radial-gradient(1.5px 1.5px at 92% 55%, rgba(255,255,255,.5), transparent 60%),
+    radial-gradient(1.5px 1.5px at 12% 90%, rgba(255,255,255,.4), transparent 60%),
+    radial-gradient(1.5px 1.5px at 70% 42%, rgba(255,255,255,.4), transparent 60%),
+    radial-gradient(circle at 20% 0%, rgba(36,46,110,.55), transparent 45%),
+    radial-gradient(circle at 85% 90%, rgba(105,63,143,.35), transparent 45%),
+    linear-gradient(180deg, #0B1130 0%, #0F1638 45%, #161F4E 100%);
+}
+
+/* ===================== 全体レイアウト ===================== */
+.sw-wrap{
+  max-width:750px; margin:0 auto; background:var(--cream-050);
+  position:relative; box-shadow:0 0 50px rgba(0,0,0,.45);
+}
+.sw-inner{ padding:56px 22px; max-width:520px; margin:0 auto; }
+.sw-block-white{ background:var(--cream-050); }
+.sw-block-night{ background:linear-gradient(180deg, var(--night-900), var(--night-800)); }
+.sw-block-night .sw-eyebrow{ color:var(--star-gold); }
+.sw-block-night .sw-eyebrow::before,.sw-block-night .sw-eyebrow::after{ background:rgba(255,255,255,.3); }
+.sw-block-night .sw-block-title{ color:var(--white); }
+.sw-block-night .sw-block-lead{ color:var(--star-cream); }
+.sw-block-night .sw-block-text{ color:rgba(255,255,255,.82); }
+.sw-block-night .sw-block-text strong{ color:var(--star-gold); }
+
+.sw-eyebrow{
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  font-family:"Jost",sans-serif; font-weight:600; font-size:.72rem;
+  letter-spacing:.28em; color:var(--coffee-700); margin-bottom:14px;
+}
+.sw-eyebrow::before,.sw-eyebrow::after{ content:''; height:1px; width:22px; background:var(--coffee-500); opacity:.4; }
+.sw-block-title{
+  text-align:center; font-size:1.55rem; font-weight:900; line-height:1.55;
+  color:var(--night-900); margin:0 0 18px;
+}
+.sw-block-lead{
+  text-align:center; font-weight:700; font-size:1.02rem; color:var(--coffee-700);
+  margin:0 0 14px;
+}
+.sw-block-text{
+  font-size:.92rem; line-height:1.95; color:var(--ink-soft); margin:0 0 14px;
+  text-align:center;
+}
+.sw-block-text strong{ color:var(--coffee-800); }
+
+/* ===================== ヘッダー ===================== */
+.sw-header{
+  position:fixed; top:0; left:0; right:0; z-index:60;
+  max-width:750px; margin:0 auto;
+  background:var(--white); border-bottom:1px solid var(--line);
+}
+.sw-header-inner{
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  padding:11px 16px;
+}
+.sw-header-logo-img{ height:22px; width:auto; display:block; }
+.sw-header-tag{ font-size:.68rem; color:var(--night-700); font-weight:700; letter-spacing:.08em; }
+.sw-header-spacer{ height:48px; }
+
+/* ===================== 帯 ===================== */
+.sw-band{
+  background:var(--night-900); color:var(--white); text-align:center;
+  font-size:.76rem; font-weight:700; letter-spacing:.03em;
+  padding:11px 16px; line-height:1.6;
+}
+.sw-band-gold{ background:linear-gradient(135deg, var(--star-gold-deep), var(--star-gold)); color:var(--night-950); }
+
+/* ===================== ファーストビュー ===================== */
+.sw-hero{ position:relative; background:var(--night-950); }
+.sw-hero-visual{ position:relative; overflow:hidden; aspect-ratio:4/5; }
+.sw-hero-visual .sw-hero-photo{ width:100%; height:100%; object-fit:cover; object-position:62% 45%; }
+.sw-hero-scrim{
+  position:absolute; inset:0;
+  background:
+    linear-gradient(180deg, rgba(7,10,26,.75) 0%, rgba(7,10,26,.15) 30%, rgba(7,10,26,.1) 55%, rgba(7,10,26,.88) 100%),
+    linear-gradient(100deg, rgba(7,10,26,.55) 0%, rgba(7,10,26,0) 45%);
+}
+.sw-hero-stars{ position:absolute; inset:0; overflow:hidden; pointer-events:none; }
+.sw-star{ position:absolute; top:-6px; border-radius:50%; background:#fff; opacity:0; will-change:transform,opacity; box-shadow:0 0 6px 1px rgba(255,246,226,.8); }
+.sw-star.is-fall{ animation:sw-star-fall linear forwards; }
+@keyframes sw-star-fall{
+  0%{ transform:translate(0,0); opacity:0; }
+  8%{ opacity:1; }
+  90%{ opacity:.9; }
+  100%{ transform:translate(var(--sw-drift), var(--sw-fall)); opacity:0; }
+}
+.sw-shoot{ position:absolute; width:2px; height:2px; opacity:0; }
+.sw-shoot.is-go{ animation:sw-shoot-go 1.5s ease-in forwards; }
+.sw-shoot::before{
+  content:''; position:absolute; right:0; top:0; width:90px; height:1.5px;
+  background:linear-gradient(90deg, rgba(255,246,226,0), rgba(255,246,226,.95));
+  transform-origin:right center;
+}
+@keyframes sw-shoot-go{
+  0%{ transform:translate(0,0); opacity:0; }
+  10%{ opacity:1; }
+  75%{ opacity:1; }
+  100%{ transform:translate(-260px,260px); opacity:0; }
+}
+
+.sw-hero-flow{
+  position:absolute; inset:0; z-index:3; padding:26px 24px 22px;
+  display:flex; flex-direction:column; justify-content:space-between;
+}
+.sw-hero-badge{
+  display:inline-flex; align-items:baseline; gap:10px; align-self:flex-start;
+  background:rgba(8,11,30,.5); border:1.5px solid var(--star-gold); border-radius:999px;
+  padding:10px 18px; backdrop-filter:blur(3px);
+}
+.sw-hero-badge-date{
+  font-family:"Kaisei Opti",serif; font-weight:700; font-size:1.15rem; color:var(--star-gold); letter-spacing:.01em; white-space:nowrap;
+}
+.sw-hero-badge-label{
+  font-family:"Kaisei Opti",serif; font-weight:500; font-size:.72rem; color:var(--star-cream); letter-spacing:.05em; white-space:nowrap;
+}
+.sw-hero-title{
+  font-family:"Kaisei Opti",serif; font-weight:700;
+  font-size:1.7rem; line-height:1.7; color:var(--white); margin:0;
+}
+
+.sw-hero-bottom-group{}
+.sw-hero-sub{
+  font-family:"Kaisei Opti",serif; font-size:.98rem; font-weight:500; color:var(--star-cream); margin:0 0 4px; letter-spacing:.02em;
+}
+.sw-hero-sub-en{
+  font-family:"Jost",sans-serif; font-size:.66rem; letter-spacing:.18em; color:rgba(255,255,255,.6); margin:0;
+}
+
+.sw-hero-note-wrap{
+  padding:22px 22px 30px; text-align:center;
+  background:linear-gradient(180deg, var(--night-950), var(--night-900));
+}
+.sw-hero-note-wrap .sw-coupon-btn{ max-width:420px; margin:0 auto; }
+.sw-hero-note-wrap .sw-coupon-note{ color:rgba(255,255,255,.55); margin-top:10px; }
+
+.sw-countdown{
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.16); border-radius:12px;
+  padding:14px 16px; margin:0 0 20px;
+}
+.sw-countdown-label{ font-size:.72rem; font-weight:700; color:var(--star-gold); margin:0 0 8px; letter-spacing:.04em; }
+.sw-countdown-timer{ font-family:"Jost",sans-serif; font-weight:700; font-size:1.6rem; letter-spacing:.02em; color:var(--white); }
+.sw-countdown-timer .sw-cd-unit{ font-size:.62rem; font-family:"Noto Sans JP",sans-serif; font-weight:700; margin:0 5px 0 2px; color:rgba(255,255,255,.7); }
+
+.sw-fv-offer{ margin-bottom:20px; }
+.sw-price-row{ display:flex; align-items:baseline; justify-content:center; gap:6px; flex-wrap:wrap; }
+.sw-price-before{ font-size:1rem; font-weight:700; color:rgba(255,255,255,.55); text-decoration:line-through; }
+.sw-price-arrow{ color:rgba(255,255,255,.7); font-size:1.3rem; font-weight:700; }
+.sw-price-after{ font-size:2.5rem; font-weight:900; color:var(--white); white-space:nowrap; }
+.sw-price-after .sw-num{ font-family:"Jost",sans-serif; font-weight:700; }
+.sw-price-off{
+  display:inline-block; background:linear-gradient(135deg, var(--star-gold-deep), var(--star-gold)); color:var(--night-950);
+  font-weight:900; font-size:.85rem; border-radius:6px; padding:4px 9px; margin-right:8px; vertical-align:middle;
+}
+.sw-price-yen{ font-size:1.2rem; font-weight:700; margin-left:3px; }
+
+/* ===================== クーポンボタン ===================== */
+.sw-coupon-btn{
+  display:block; text-align:center; background:linear-gradient(135deg, var(--star-gold-deep), var(--star-gold));
+  color:var(--night-950); font-weight:700; font-size:.94rem; border-radius:999px;
+  padding:16px 20px; box-shadow:0 8px 22px rgba(201,154,62,.35);
+  position:relative; animation:sw-pulse 2.6s ease-in-out infinite;
+}
+@keyframes sw-pulse{ 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.025); } }
+.sw-coupon-btn-lg{ font-size:1.05rem; padding:19px 20px; margin-bottom:10px; }
+.sw-coupon-note{ text-align:center; font-size:.68rem; color:var(--ink-soft); margin:0; }
+.sw-coupon-wrap{ padding:0 22px 44px; text-align:center; }
+.sw-coupon-wrap .sw-coupon-btn{ max-width:420px; margin:0 auto; }
+.sw-block .sw-coupon-btn{ max-width:420px; margin:26px auto 0; }
+.sw-coupon-btn.is-ended{
+  animation:none; background:#BEB6A6; box-shadow:none; pointer-events:none; color:var(--white);
+}
+
+/* ===================== 星バッジ ===================== */
+.sw-badge{
+  background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.28);
+  border-radius:999px; padding:5px 12px; font-size:.68rem; font-weight:700; color:var(--white);
+}
+.sw-fv-offer-badges{ display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-bottom:14px; }
+
+/* ===================== ブレンドカード ===================== */
+.sw-blend-intro{ padding:8px 22px 8px; text-align:center; }
+.sw-blend-card{ position:relative; }
+.sw-blend-photo{ width:100%; display:block; }
+.sw-blend-body{ padding:26px 22px 40px; max-width:520px; margin:0 auto; }
+.sw-blend-num{
+  display:block; font-family:"Jost",sans-serif; font-weight:700; font-size:.7rem;
+  letter-spacing:.2em; margin-bottom:10px;
+}
+.sw-blend-tag{
+  display:inline-block; font-family:"Jost",sans-serif; font-weight:600; font-size:.66rem;
+  letter-spacing:.14em; padding:4px 12px; border-radius:999px; margin-bottom:14px;
+}
+.sw-blend-title{ font-size:1.28rem; font-weight:900; line-height:1.55; color:var(--night-900); margin:0 0 12px; }
+.sw-blend-text{ font-size:.88rem; line-height:1.95; color:var(--ink-soft); margin:0; }
+.sw-blend-card.c-cassiopeia .sw-blend-num,
+.sw-blend-card.c-cassiopeia .sw-blend-tag{ color:var(--cassiopeia); background:var(--cassiopeia-soft); }
+.sw-blend-card.c-cassiopeia .sw-blend-num{ background:none; padding:0; }
+.sw-blend-card.c-scross .sw-blend-num,
+.sw-blend-card.c-scross .sw-blend-tag{ color:var(--scross); background:var(--scross-soft); }
+.sw-blend-card.c-scross .sw-blend-num{ background:none; padding:0; }
+.sw-blend-card.c-romance .sw-blend-num,
+.sw-blend-card.c-romance .sw-blend-tag{ color:var(--romance); background:var(--romance-soft); }
+.sw-blend-card.c-romance .sw-blend-num{ background:none; padding:0; }
+
+/* ===================== レビュー ===================== */
+.sw-review-score{ display:flex; align-items:baseline; justify-content:center; gap:6px; margin:6px 0 6px; }
+.sw-review-score .sw-num{ font-size:3rem; color:var(--night-900); }
+.sw-review-score .sw-review-max{ font-size:1.1rem; color:var(--ink-soft); }
+.sw-review-count{ text-align:center; font-size:.72rem; color:var(--ink-soft); margin:0 0 26px; }
+.sw-review-quotes{ display:flex; flex-direction:column; gap:12px; margin:0 0 8px; }
+.sw-review-quote{
+  background:var(--white); border:1px solid var(--line); border-radius:10px;
+  padding:16px 18px; font-size:.84rem; line-height:1.85; color:var(--coffee-800);
+}
+.sw-review-quote-meta{ display:block; margin-top:8px; font-size:.68rem; color:var(--ink-soft); font-weight:700; }
+
+/* ===================== 3ステップ ===================== */
+.sw-steps{ display:flex; flex-direction:column; gap:14px; margin:24px 0; }
+.sw-step{
+  display:flex; align-items:center; gap:14px; background:var(--white);
+  border:1px solid var(--line); border-radius:12px; padding:16px;
+}
+.sw-step-num{
+  flex:none; width:40px; height:40px; border-radius:50%; background:var(--night-900);
+  color:var(--star-gold); display:flex; align-items:center; justify-content:center;
+  font-family:"Jost",sans-serif; font-weight:700; font-size:1.05rem;
+}
+.sw-step-icon{ flex:none; width:28px; height:28px; color:var(--night-700); }
+.sw-step-body{ flex:1; }
+.sw-step-title{ font-weight:900; font-size:.86rem; color:var(--coffee-900); }
+.sw-steps-done{
+  text-align:center; font-weight:700; font-size:.92rem; color:var(--coffee-800);
+  background:var(--cassiopeia-soft); border-radius:10px; padding:14px; margin-top:16px;
+}
+
+/* ===================== イベントブロック ===================== */
+.sw-event{
+  background:
+    radial-gradient(circle at 85% 12%, rgba(233,190,104,.16), transparent 45%),
+    radial-gradient(circle at 8% 90%, rgba(107,63,143,.28), transparent 45%),
+    linear-gradient(180deg, var(--night-950), var(--night-900));
+  color:var(--white); padding:56px 22px;
+}
+.sw-event .sw-eyebrow{ color:var(--star-gold); }
+.sw-event .sw-eyebrow::before,.sw-event .sw-eyebrow::after{ background:rgba(255,255,255,.25); }
+.sw-event-title{ text-align:center; font-size:1.6rem; font-weight:900; line-height:1.5; margin:0 0 18px; }
+.sw-event-title .sw-num{ color:var(--star-gold); font-size:1.15em; }
+.sw-event-text{ text-align:center; font-size:.88rem; line-height:1.95; color:rgba(255,255,255,.78); margin:0 0 24px; max-width:440px; margin-left:auto; margin-right:auto; }
+.sw-event-facts{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:0 auto 26px; max-width:440px; }
+.sw-event-fact{
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.16); border-radius:10px;
+  padding:12px 10px; text-align:center;
+}
+.sw-event-fact-label{ font-size:.62rem; color:rgba(255,255,255,.6); font-weight:700; margin-bottom:4px; }
+.sw-event-fact-value{ font-size:.92rem; font-weight:900; color:var(--white); }
+.sw-event-fact.full{ grid-column:1 / -1; }
+
+.sw-sold{
+  max-width:440px; margin:0 auto 30px; background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.16); border-radius:12px; padding:16px;
+}
+.sw-sold-text{ text-align:center; font-weight:900; font-size:.98rem; color:var(--star-gold); margin:0 0 6px; }
+.sw-sold-sub{ text-align:center; font-size:.7rem; color:rgba(255,255,255,.65); margin:0 0 10px; }
+.sw-sold-bar{ height:8px; border-radius:999px; background:rgba(255,255,255,.16); overflow:hidden; }
+.sw-sold-bar-fill{ height:100%; background:linear-gradient(90deg, var(--star-gold-deep), var(--star-gold)); border-radius:999px; width:0%; transition:width 1s ease; }
+
+/* ===================== 最終ブロック ===================== */
+.sw-final{ background:var(--coffee-900); color:var(--white); padding:52px 22px 44px; }
+.sw-final .sw-block-title{ color:var(--white); }
+.sw-final .sw-block-text{ color:rgba(255,255,255,.82); }
+.sw-final .sw-block-text strong{ color:var(--star-gold); }
+.sw-final-offer{
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.16); border-radius:14px;
+  padding:22px 12px; margin:24px 0; text-align:center;
+}
+.sw-final-offer-photo{ width:100%; max-width:280px; border-radius:10px; margin:0 auto 16px; display:block; }
+.sw-final-offer-name{ font-weight:900; font-size:.94rem; margin-bottom:10px; }
+.sw-final-offer-price{ margin-bottom:6px; }
+.sw-final-offer-tags{ display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:12px; }
+.sw-btn-secondary{
+  display:block; text-align:center; border:1px solid rgba(255,255,255,.4); color:var(--white);
+  font-weight:500; font-size:.86rem; border-radius:999px; padding:14px 20px; margin-top:12px;
+  max-width:420px; margin-left:auto; margin-right:auto;
+}
+
+/* ===================== 注意書き・フッター ===================== */
+.sw-notices{ background:var(--white); padding:34px 22px 100px; }
+.sw-notices-title{ font-size:.76rem; font-weight:900; color:var(--coffee-700); margin:0 0 10px; text-align:center; }
+.sw-notices ul{ margin:0; padding:0 0 0 1.1em; }
+.sw-notices li{ font-size:.68rem; color:var(--ink-soft); line-height:1.9; }
+.sw-footer-note{ background:var(--night-950); color:rgba(255,255,255,.7); text-align:center; padding:26px 20px 100px; font-size:.72rem; line-height:1.9; }
+.sw-footer-note a{ color:var(--star-gold); font-weight:700; }
+
+/* ===================== 追従クーポンCTA ===================== */
+.sw-sticky-cta{
+  position:fixed; bottom:0; left:50%; transform:translateX(-50%); z-index:50;
+  width:100%; max-width:750px; background:var(--night-950); padding:10px 16px;
+  box-shadow:0 -4px 18px rgba(0,0,0,.3);
+}
+.sw-sticky-cta .sw-coupon-btn{
+  margin:0; font-size:.88rem; padding:12px;
+  background:transparent; border:2px solid var(--star-gold); box-shadow:none; color:var(--star-gold);
+}
+
+.sw-icon-svg{ width:100%; height:100%; }
+
+@media screen and (min-width:768px){
+  .sw-inner{ padding:72px 32px; max-width:600px; }
+  .sw-hero-visual{ aspect-ratio:16/10; }
+  .sw-hero-visual .sw-hero-photo{ object-position:70% 40%; }
+  .sw-hero-flow{ padding:40px 44px 34px; }
+  .sw-hero-badge{ padding:12px 22px; }
+  .sw-hero-badge-date{ font-size:1.35rem; }
+  .sw-hero-badge-label{ font-size:.82rem; }
+  .sw-hero-title{ font-size:2.1rem; }
+  .sw-hero-sub{ font-size:1.1rem; }
+  .sw-block-title{ font-size:1.85rem; }
+  .sw-blend-body{ max-width:600px; padding:30px 32px 46px; }
+  .sw-blend-title{ font-size:1.5rem; }
+  .sw-steps{ flex-direction:row; }
+  .sw-step{ flex-direction:column; text-align:center; flex:1; }
+  .sw-event{ padding:76px 32px; }
+  .sw-event-title{ font-size:2rem; }
+  .sw-review-quotes{ flex-direction:row; }
+  .sw-sticky-cta{ display:none; }
+}
+</style>
+</head>
+<body>
+<div class="sw-bg-pattern" aria-hidden="true"></div>
+<div class="sw-wrap">
+
+  <!-- ============================================================
+       ヘッダー
+       ============================================================ -->
+  <header class="sw-header">
+    <div class="sw-header-inner">
+      <img src="images/header/logo-sawai.png" alt="澤井珈琲" class="sw-header-logo-img">
+      <span class="sw-header-tag">特別キャンペーン</span>
+    </div>
+  </header>
+  <div class="sw-header-spacer"></div>
+
+  <div class="sw-band sw-band-gold">10月1日はコーヒーの日｜星降るブレンド3種60杯分が2,026円OFF・ポイント2倍</div>
+
+  <!-- ============================================================
+       ファーストビュー
+       ============================================================ -->
+  <section class="sw-hero">
+    <div class="sw-hero-visual">
+      <!-- ▼差し替え可: images/product/group-photo-only.jpg (商品パッケージ写真、夜空背景) -->
+      <img src="images/product/group-photo-only.jpg" alt="星降るブレンド カシオペア・サザンクロス・星ロマン 3種のドリップバッグと、淹れたてのコーヒー" class="sw-hero-photo">
+      <div class="sw-hero-scrim"></div>
+      <div class="sw-hero-stars" id="swHeroStars" aria-hidden="true"></div>
+      <div class="sw-hero-flow">
+        <div class="sw-hero-badge">
+          <span class="sw-hero-badge-date">10月1日</span>
+          <span class="sw-hero-badge-label">コーヒーの日キャンペーン</span>
+        </div>
+        <h1 class="sw-hero-title">鳥取の夜空を、<br>飲みくらべる。</h1>
+        <!-- ▲改行はスマホ・PC共通固定。長さが変わる場合はここを調整してください -->
+        <div class="sw-hero-bottom-group">
+          <p class="sw-hero-sub">星降るブレンド<br>3種飲み比べ60杯分</p>
+          <p class="sw-hero-sub-en">CASSIOPEIA / SOUTHERN CROSS / STAR ROMANCE</p>
+        </div>
+      </div>
+    </div>
+    <div class="sw-hero-note-wrap">
+      <div class="sw-countdown">
+        <p class="sw-countdown-label" id="swCdLabel">コーヒーの日 開始まで</p>
+        <div class="sw-countdown-timer" id="swCdTimer">--<span class="sw-cd-unit">日</span>--<span class="sw-cd-unit">時間</span></div>
+      </div>
+      <a href="#" class="sw-coupon-btn sw-coupon-btn-lg" data-coupon>2,026円クーポンを獲得する</a>
+      <p class="sw-coupon-note">クーポンを獲得してから商品をご購入ください</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ブロック1：10月1日はコーヒーの日
+       ============================================================ -->
+  <section class="sw-block sw-block-white" id="block1">
+    <div class="sw-inner">
+      <span class="sw-eyebrow">OCTOBER 1st — COFFEE DAY</span>
+      <h2 class="sw-block-title">一年に一度<br>コーヒーの日だけの<br>星空クーポン</h2>
+      <p class="sw-block-text">10月1日は、国際コーヒー機関が定めた「コーヒーの日」。世界中でコーヒーに感謝を伝えるこの一日に合わせて、澄んだ星空から生まれた「星降るブレンド」を、<strong>2026にちなんだ2,026円OFF</strong>という一日限りの金額でお届けします。</p>
+      <p class="sw-block-text">クーポンが使えるのは10月1日だけ。夜空を見上げるように、じっくり選んでいただけたら嬉しいです。</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ブロック2：鳥取のストーリー
+       ============================================================ -->
+  <section class="sw-block sw-block-night" id="block2">
+    <div class="sw-inner">
+      <span class="sw-eyebrow">TOTTORI — 星取県</span>
+      <h2 class="sw-block-title">全国屈指の星空を、<br>鳥取から。</h2>
+      <p class="sw-block-text">澤井珈琲の焙煎工場があるのは、鳥取県境港市。空気が澄み、夜になるとどの町からでも満天の星を見上げられることから「星取県」とも呼ばれる土地です。</p>
+      <p class="sw-block-text">その夜空にちなんで、3つのブレンドにはそれぞれ星座の名前をつけました。<strong>カシオペア、サザンクロス、星ロマン。</strong>飲みくらべながら、鳥取の夜空に想いを馳せてみませんか。</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3つの星座、3つの味わい
+       ============================================================ -->
+  <section id="blends">
+    <div class="sw-inner sw-blend-intro">
+      <span class="sw-eyebrow">3 CONSTELLATIONS, 3 BLENDS</span>
+      <h2 class="sw-block-title">3つの星座、<br>3つの味わい。</h2>
+      <p class="sw-block-text">その日の気分や、夜空の表情に合わせて選べるから、飲みくらべが楽しくなる。</p>
+    </div>
+
+    <div class="sw-blend-card c-cassiopeia">
+      <img src="images/product/blend-cassiopeia.jpg" alt="ブレンドカシオペア" class="sw-blend-photo">
+      <div class="sw-blend-body">
+        <span class="sw-blend-num">01</span>
+        <span class="sw-blend-tag">CASSIOPEIA — カシオペア</span>
+        <h3 class="sw-blend-title">フルーティーで、<br>まろやかな。<br>はじまりの一杯。</h3>
+        <p class="sw-blend-text">インドネシア産の豆を使用。北の夜空にWの形を描く星座「カシオペア座」から名付けました。苦味と酸味のバランスがよく、誰にでも飲みやすい味わい。ストレートで、豆本来の美味しさをお楽しみください。</p>
+      </div>
+    </div>
+
+    <div class="sw-blend-card c-scross">
+      <img src="images/product/blend-southerncross.jpg" alt="ブレンドサザンクロス" class="sw-blend-photo">
+      <div class="sw-blend-body">
+        <span class="sw-blend-num">02</span>
+        <span class="sw-blend-tag">SOUTHERN CROSS — サザンクロス</span>
+        <h3 class="sw-blend-title">日本では見られない、<br>特別な星座の名前。</h3>
+        <p class="sw-blend-text">南十字星――日本からはほとんど見ることができない、特別な星座から名付けました。カシオペアをベースに、少しコクを加えてより深い味わいに。フルーティーな香りとマイルドな口当たりはそのままに、ワンランク上のひとときを。</p>
+      </div>
+    </div>
+
+    <div class="sw-blend-card c-romance">
+      <img src="images/product/blend-romance.jpg" alt="ブレンド星ロマン" class="sw-blend-photo">
+      <div class="sw-blend-body">
+        <span class="sw-blend-num">03</span>
+        <span class="sw-blend-tag">STAR ROMANCE — 星ロマン</span>
+        <h3 class="sw-blend-title">華やかな香りと甘さが、<br>ふわりと広がる。</h3>
+        <p class="sw-blend-text">カシオペアをベースに、スペシャリティコーヒーを配合した一杯。華やかな香りと甘さが加わり、リラックスしたい夜や、大切な人とのひとときにぴったり。少し贅沢な気分を味わいたいときに。</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="sw-band">クーポンを獲得してからご注文ください</div>
+
+  <!-- ============================================================
+       レビュー
+       ============================================================ -->
+  <section class="sw-block sw-block-white" id="block-review">
+    <div class="sw-inner">
+      <span class="sw-eyebrow">REVIEW</span>
+      <h2 class="sw-block-title">お楽しみいただいた<br>方からの声</h2>
+
+      <div class="sw-review-score"><span class="sw-num">4.50</span><span class="sw-review-max">/ 5.00</span></div>
+      <p class="sw-review-count">楽天レビュー 8件より</p>
+
+      <div class="sw-review-quotes">
+        <div class="sw-review-quote">いつも美味しくいただいてます。特にこのシリーズが好きです。これからもリピートさせてもらいます。<span class="sw-review-quote-meta">50代・女性</span></div>
+        <div class="sw-review-quote">香りが豊かで濃く、しっかりコーヒーの味を感じました。楽しいお買い物ができました。<span class="sw-review-quote-meta">60代・女性</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3ステップ
+       ============================================================ -->
+  <section class="sw-block sw-block-night" id="block-steps">
+    <div class="sw-inner">
+      <span class="sw-eyebrow">3 STEPS</span>
+      <h2 class="sw-block-title">お湯を注ぐだけ。<br>星を眺める時間に、<br>すぐ手が届く。</h2>
+
+      <div class="sw-steps">
+        <div class="sw-step">
+          <span class="sw-step-num">1</span>
+          <span class="sw-step-icon">
+            <svg class="sw-icon-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6h10l-1.5 9h-7L11 6Z"/><path d="M8 6h2M22 6h2"/><path d="M7 17h18v3a8 8 0 0 1-8 8h-2a8 8 0 0 1-8-8v-3Z"/></svg>
+          </span>
+          <span class="sw-step-body"><span class="sw-step-title">カップにドリップバッグをかける</span></span>
+        </div>
+        <div class="sw-step">
+          <span class="sw-step-num">2</span>
+          <span class="sw-step-icon">
+            <svg class="sw-icon-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4c4.5 6 7 10.2 7 14A7 7 0 1 1 9 18c0-3.8 2.5-8 7-14Z"/></svg>
+          </span>
+          <span class="sw-step-body"><span class="sw-step-title">お湯を静かに注ぐ</span></span>
+        </div>
+        <div class="sw-step">
+          <span class="sw-step-num">3</span>
+          <span class="sw-step-icon">
+            <svg class="sw-icon-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15h18v3a8 8 0 0 1-8 8h-2a8 8 0 0 1-8-8v-3Z"/><path d="M23 16h2.5a3 3 0 1 1 0 6H23"/><path d="M12 4c0 1.6-1.6 1.6-1.6 3.2S12 8.8 12 10.4M19 4c0 1.6-1.6 1.6-1.6 3.2S19 8.8 19 10.4"/></svg>
+          </span>
+          <span class="sw-step-body"><span class="sw-step-title">香り豊かな一杯のできあがり</span></span>
+        </div>
+      </div>
+
+      <p class="sw-steps-done">個包装だから、飲みたい星座をその日の気分で選べます。</p>
+    </div>
+  </section>
+
+  <div class="sw-band sw-band-gold">10月1日限定｜星降るブレンド3種60杯分が2,026円OFF・ポイント2倍</div>
+
+  <!-- ============================================================
+       10月1日限定イベント
+       ============================================================ -->
+  <section class="sw-event" id="block-event">
+    <span class="sw-eyebrow">OCTOBER 1st ONLY</span>
+    <h2 class="sw-event-title">10月1日だけの<br><span class="sw-num">2,026</span>円OFF</h2>
+    <p class="sw-event-text">10月1日は「コーヒーの日」。澄んだ鳥取の夜空から生まれた星降るブレンドを、今年の年号にちなんだ2,026円のクーポンでご用意しました。3種60杯分の飲み比べ福袋を、1日限定の特別価格で。</p>
+
+    <div class="sw-event-facts">
+      <div class="sw-event-fact full">
+        <p class="sw-event-fact-label">開催期間</p>
+        <p class="sw-event-fact-value">10月1日 0:00〜23:59限定</p>
+      </div>
+      <div class="sw-event-fact">
+        <p class="sw-event-fact-label">通常価格</p>
+        <p class="sw-event-fact-value">4,928円</p>
+      </div>
+      <div class="sw-event-fact">
+        <p class="sw-event-fact-label">クーポン</p>
+        <p class="sw-event-fact-value">2,026円OFF対象</p>
+      </div>
+      <div class="sw-event-fact">
+        <p class="sw-event-fact-label">ポイント</p>
+        <p class="sw-event-fact-value">2倍</p>
+      </div>
+      <div class="sw-event-fact">
+        <p class="sw-event-fact-label">送料</p>
+        <p class="sw-event-fact-value">無料</p>
+      </div>
+    </div>
+
+    <a href="#" class="sw-coupon-btn sw-coupon-btn-lg" data-coupon>2,026円クーポンを獲得する</a>
+    <p class="sw-coupon-note" style="margin-top:10px;color:rgba(255,255,255,.55);">クーポンはご注文前に獲得してください</p>
+
+    <div class="sw-sold" id="swSold">
+      <p class="sw-sold-text" id="swSoldText">ただいま〇〇個突破！</p>
+      <p class="sw-sold-sub" id="swSoldSub">目標〇〇個まで、あと〇〇個</p>
+      <div class="sw-sold-bar"><div class="sw-sold-bar-fill" id="swSoldBar"></div></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       最終ブロック
+       ============================================================ -->
+  <section class="sw-final" id="block-final">
+    <div class="sw-inner" style="padding-top:0;padding-bottom:0;">
+      <span class="sw-eyebrow">LAST CALL</span>
+      <h2 class="sw-block-title">今夜は、星を<br>飲みくらべる。</h2>
+      <p class="sw-block-text">お湯を注いで、待つだけ。一袋ずつ個包装だから、3つの星座を気分で選べます。</p>
+      <p class="sw-block-text"><strong>コーヒーの日の特別な一杯を、10月1日にどうぞ。</strong></p>
+
+      <div class="sw-final-offer">
+        <img src="images/product/group-photo-only.jpg" alt="星降るブレンド カシオペア・サザンクロス・星ロマン 飲み比べ3種60杯分福袋" class="sw-final-offer-photo">
+        <p class="sw-final-offer-name">星降るブレンド 飲み比べ3種60杯分福袋</p>
+        <div class="sw-price-row sw-final-offer-price">
+          <span class="sw-price-before">通常 4,928円</span>
+          <span class="sw-price-arrow">→</span>
+          <span class="sw-price-after"><span class="sw-price-off">2,026円OFF</span><span class="sw-num">2,902</span><span class="sw-price-yen">円</span></span>
+        </div>
+        <p style="font-size:.68rem;color:rgba(255,255,255,.6);margin:0;">10月1日限定 ポイント2倍・2,026円クーポン</p>
+        <div class="sw-final-offer-tags">
+          <span class="sw-badge">送料無料</span>
+          <span class="sw-badge">個包装</span>
+        </div>
+      </div>
+
+      <a href="#" class="sw-coupon-btn sw-coupon-btn-lg" data-coupon>2,026円クーポンを獲得する</a>
+      <a href="https://item.rakuten.co.jp/sawaicoffee-tea/dp-seizablend3s60/" target="_blank" rel="noopener" class="sw-btn-secondary">商品ページで購入する</a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       注意書き
+       ============================================================ -->
+  <section class="sw-notices">
+    <p class="sw-notices-title">ご注意事項</p>
+    <ul>
+      <li>ポイント2倍・2,026円クーポンは10月1日限定です。</li>
+      <li>クーポンはご注文前に獲得してください。</li>
+      <li>ご注文確認画面でクーポンが適用されていることをご確認ください。</li>
+      <li>クーポンの利用条件、対象期間、利用上限はクーポンページをご確認ください。</li>
+      <li>クーポン利用可能枚数に上限を設定する場合は、予定枚数に達し次第終了となります。</li>
+      <li>販売状況により、商品が品切れとなる場合があります。</li>
+      <li>写真はイメージです。</li>
+      <li>レビュー件数・評価は掲載時点のものです。</li>
+    </ul>
+  </section>
+
+  <section class="sw-footer-note">
+    <p>澤井珈琲 楽天市場店</p>
+    <p style="margin-top:6px;">星降る夜を、飲みくらべる。</p>
+    <p style="margin-top:14px;"><a href="https://item.rakuten.co.jp/sawaicoffee-tea/dp-seizablend3s60/" target="_blank" rel="noopener">商品ページへ →</a></p>
+  </section>
+
+  <!-- 追従クーポンCTA -->
+  <div class="sw-sticky-cta">
+    <a href="#" class="sw-coupon-btn" data-coupon>10/1限定｜2,026円クーポンを獲得</a>
+  </div>
+
+</div>
+
+<script>
+/* ===================== 設定値(要編集箇所) ===================== */
+/* TODO: 実際のクーポン取得URLに差し替えてください */
+const COUPON_URL = "#";
+const PRODUCT_URL = "https://item.rakuten.co.jp/sawaicoffee-tea/dp-seizablend3s60/";
+
+/* 企画開始・終了日時 */
+const CAMPAIGN_START = new Date("2026-10-01T00:00:00+09:00");
+const CAMPAIGN_END   = new Date("2026-10-01T23:59:59+09:00");
+
+/* 販売実績(手動更新): 実際の販売数が確定していない間は 0 のままにしておくと非表示になります */
+const SOLD_COUNT = 0;
+const SOLD_TARGET = 2000;
+
+/* ===================== クーポンボタンのURL一括設定 ===================== */
+document.querySelectorAll('[data-coupon]').forEach(btn=>{
+  btn.setAttribute('href', COUPON_URL);
+});
+
+/* ===================== カウントダウン ===================== */
+function pad(n){ return String(n).padStart(2,'0'); }
+
+function updateCountdown(){
+  const label = document.getElementById('swCdLabel');
+  const timer = document.getElementById('swCdTimer');
+  const now = new Date();
+
+  if(now < CAMPAIGN_START){
+    const diff = CAMPAIGN_START - now;
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const mins = Math.floor((diff % 3600000) / 60000);
+    label.textContent = 'コーヒーの日 開始まで';
+    timer.innerHTML = `${days}<span class="sw-cd-unit">日</span>${pad(hours)}<span class="sw-cd-unit">時間</span>${pad(mins)}<span class="sw-cd-unit">分</span>`;
+  }else if(now >= CAMPAIGN_START && now <= CAMPAIGN_END){
+    const diff = CAMPAIGN_END - now;
+    const hours = Math.floor(diff / 3600000);
+    const mins = Math.floor((diff % 3600000) / 60000);
+    const secs = Math.floor((diff % 60000) / 1000);
+    label.textContent = 'コーヒーの日 終了まで';
+    timer.innerHTML = `${pad(hours)}<span class="sw-cd-unit">時間</span>${pad(mins)}<span class="sw-cd-unit">分</span>${pad(secs)}<span class="sw-cd-unit">秒</span>`;
+  }else{
+    document.querySelector('.sw-countdown').style.display = 'none';
+    document.querySelectorAll('[data-coupon]').forEach(btn=>{
+      btn.classList.add('is-ended');
+      if(!btn.querySelector('img')){
+        btn.textContent = '受付終了しました';
+      }
+      btn.removeAttribute('href');
+    });
+  }
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+/* ===================== 販売実績(手動更新の数値のみ表示) ===================== */
+(function(){
+  const box = document.getElementById('swSold');
+  if(SOLD_COUNT <= 0){
+    box.style.display = 'none';
+    return;
+  }
+  const remain = Math.max(0, SOLD_TARGET - SOLD_COUNT);
+  document.getElementById('swSoldText').textContent = `ただいま${SOLD_COUNT.toLocaleString()}個突破！`;
+  document.getElementById('swSoldSub').textContent = remain > 0
+    ? `目標${SOLD_TARGET.toLocaleString()}個まで、あと${remain.toLocaleString()}個`
+    : `目標${SOLD_TARGET.toLocaleString()}個を達成しました！`;
+  document.getElementById('swSoldBar').style.width = Math.min(100, (SOLD_COUNT / SOLD_TARGET) * 100) + '%';
+})();
+
+/* ===================== FVの流れ星演出(紙吹雪の代わりに小さな星) ===================== */
+(function(){
+  const layer = document.getElementById('swHeroStars');
+  if(!layer){ return; }
+
+  let running = true;
+
+  function spawnStar(){
+    if(!running) return;
+    const frame = layer.parentElement;
+    const frameHeight = frame.offsetHeight;
+    const star = document.createElement('span');
+    star.className = 'sw-star';
+    const size = 1.5 + Math.random() * 2.2;
+    star.style.width = size + 'px';
+    star.style.height = size + 'px';
+    star.style.left = (Math.random() * 100) + '%';
+    const duration = 4 + Math.random() * 4;
+    star.style.animationDuration = duration + 's';
+    star.style.setProperty('--sw-fall', (frameHeight * 0.55 + Math.random() * frameHeight * 0.5) + 'px');
+    star.style.setProperty('--sw-drift', (Math.random() * 40 - 20) + 'px');
+    layer.appendChild(star);
+    requestAnimationFrame(()=> star.classList.add('is-fall'));
+    setTimeout(()=> star.remove(), duration * 1000 + 200);
+  }
+
+  function spawnShoot(){
+    if(!running) return;
+    const frame = layer.parentElement;
+    const w = frame.offsetWidth, h = frame.offsetHeight;
+    const shoot = document.createElement('span');
+    shoot.className = 'sw-shoot';
+    shoot.style.left = (20 + Math.random() * (w * 0.5)) + 'px';
+    shoot.style.top = (Math.random() * (h * 0.35)) + 'px';
+    layer.appendChild(shoot);
+    requestAnimationFrame(()=> shoot.classList.add('is-go'));
+    setTimeout(()=> shoot.remove(), 1700);
+  }
+
+  function loopStars(){
+    if(!running) return;
+    spawnStar();
+    setTimeout(loopStars, 180 + Math.random() * 260);
+  }
+  function loopShoot(){
+    if(!running) return;
+    spawnShoot();
+    setTimeout(loopShoot, 5000 + Math.random() * 5000);
+  }
+
+  document.addEventListener('visibilitychange', ()=>{
+    running = document.visibilityState === 'visible';
+    if(running){ loopStars(); loopShoot(); }
+  });
+
+  window.addEventListener('load', ()=>{
+    loopStars();
+    setTimeout(loopShoot, 1800);
+  });
+})();
+
+</script>
+</body>
+</html>
