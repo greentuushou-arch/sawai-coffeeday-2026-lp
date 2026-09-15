@@ -20,6 +20,8 @@
   --star-gold:#E9BE68;
   --star-gold-deep:#C99A3E;
   --star-cream:#FFF6E2;
+  --campaign-red:#D8321F;
+  --campaign-red-deep:#A61C10;
   --coffee-900:#2A160D;
   --coffee-800:#3A2013;
   --coffee-700:#4A2C1A;
@@ -160,15 +162,16 @@ a{ text-decoration:none; color:inherit; }
   display:flex; flex-direction:column; justify-content:space-between;
 }
 .sw-hero-badge{
-  display:inline-flex; align-items:baseline; gap:10px; align-self:flex-start;
-  background:rgba(8,11,30,.5); border:1.5px solid var(--star-gold); border-radius:999px;
-  padding:10px 18px; backdrop-filter:blur(3px);
+  display:inline-flex; flex-direction:column; gap:1px; align-self:flex-start;
+  background:linear-gradient(135deg, var(--campaign-red), var(--campaign-red-deep));
+  border:1.5px solid var(--star-gold); border-radius:14px;
+  padding:12px 20px; box-shadow:0 10px 26px rgba(0,0,0,.4);
 }
 .sw-hero-badge-date{
-  font-family:"Kaisei Opti",serif; font-weight:700; font-size:1.15rem; color:var(--star-gold); letter-spacing:.01em; white-space:nowrap;
+  font-family:"Kaisei Opti",serif; font-weight:700; font-size:1.6rem; color:var(--white); letter-spacing:.02em; white-space:nowrap; line-height:1.3;
 }
 .sw-hero-badge-label{
-  font-family:"Kaisei Opti",serif; font-weight:500; font-size:.72rem; color:var(--star-cream); letter-spacing:.05em; white-space:nowrap;
+  font-family:"Kaisei Opti",serif; font-weight:500; font-size:.8rem; color:var(--star-gold); letter-spacing:.06em; white-space:nowrap;
 }
 .sw-hero-title{
   font-family:"Kaisei Opti",serif; font-weight:700;
@@ -366,9 +369,9 @@ a{ text-decoration:none; color:inherit; }
   .sw-hero-visual{ aspect-ratio:16/10; }
   .sw-hero-visual .sw-hero-photo{ object-position:70% 40%; }
   .sw-hero-flow{ padding:40px 44px 34px; }
-  .sw-hero-badge{ padding:12px 22px; }
-  .sw-hero-badge-date{ font-size:1.35rem; }
-  .sw-hero-badge-label{ font-size:.82rem; }
+  .sw-hero-badge{ padding:16px 28px; }
+  .sw-hero-badge-date{ font-size:2rem; }
+  .sw-hero-badge-label{ font-size:.92rem; }
   .sw-hero-title{ font-size:2.1rem; }
   .sw-hero-sub{ font-size:1.1rem; }
   .sw-block-title{ font-size:1.85rem; }
